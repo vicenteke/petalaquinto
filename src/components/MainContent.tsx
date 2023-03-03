@@ -1,18 +1,23 @@
 import React from "react"
-import { Col, Container, Row } from "react-bootstrap";
-import { Link, useMatch } from 'react-router-dom';
+import {
+    Routes,
+    Route
+} from 'react-router-dom';
 
-import Icon from "./Icon";
+import Home from "../pages/Home";
+import Music from "../pages/Music";
+import About from "../pages/About";
+
 
 export default function MainContent() {
 
     return (
-        <Container id="main-content">
-            <Row>
-                <Col>
-                Hi
-                </Col>
-            </Row>
-        </Container>
+        <div id="main-content">
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/musica" element={<Music />} />
+            <Route path="/sobre" element={<About />} />
+        </Routes>
+        </div>
     );
 }

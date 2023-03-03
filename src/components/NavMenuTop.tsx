@@ -10,7 +10,7 @@ export default function NavMenuTop() {
 
     return (
         <Col className="d-flex align-items-center" id="top-nav-menu">
-            <Link to="/" id="destaque-nav-menu-link" key="home" className={
+            <Link to="/" key="home" className={
                 isHomeActive ? "nav-menu-link active" : "nav-menu-link"}
                 >
                 Destaques

@@ -7,11 +7,11 @@ export default function SocialMenu() {
     return (
         <Col id="social-menu" className="d-flex align-items-center">
             <LinkIcon
-                href="https://open.spotify.com/artist/48pvKtSaGzZ1RPpy9psyGY?si=Hd_IGGO7TNO2Q1wi6D_oDQ&dl_branch=1"
+                href="https://open.spotify.com/artist/4GFANHG6Hljpi1JHKde9hJ?si=lpZpSAYzSLqsvkowsaPuHQ"
                 src="spotify_logo.svg" alt="Abrir Spotify"
             />
             <LinkIcon
-                href="https://www.youtube.com/channel/UCNutcZl1xVTdZRctyhmjxRA"
+                href="https://www.youtube.com/@petalaquinto"
                 src="youtube_logo.svg" alt="Abrir YouTube"
             />
             <LinkIcon
