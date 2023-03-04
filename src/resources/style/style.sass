@@ -132,6 +132,12 @@ iframe.full-width
     object-fit: cover
     object-position: 50% 30%
 
+#music-buttons-list
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-top: 30px
+
 .button-social
     border: 2px solid white
     border-radius: 10px
@@ -146,21 +152,33 @@ iframe.full-width
         text-decoration: none !important
         text-align: center
         display: inline-block
+        line-height: 35px
         @media (min-width: 400px)
             width: 260px
 
-.button-social:hover
-    border-color: transparent
-    background: #777
-    span
-        font-weight: bold
+    &:hover
+        border: none !important
+        padding-top: 12px
+        padding-bottom: 12px
+        background: #777
+        span
+            font-weight: bold
+
+    &-spotify:hover
+        background: rgba(46, 189, 89, .55)
+
+    &-youtube:hover
+        background: rgba(255, 0, 0, .6)
+
+    &-instagram:hover
+        background: linear-gradient(90deg, rgba(178, 63, 140, .6) 0%, rgba(250, 141, 36, .6) 100%)
+
+    &-apple:hover, &-deezer:hover
+        background: rgba(253, 253, 253, .5)
+
+    &-amazon:hover
+        background: rgba(26, 127, 193, .5)
 
 .button-social-icon
     width: 30px
     height: auto
-
-#music-buttons-list
-    display: flex
-    flex-direction: column
-    align-items: center
-    padding-top: 30px

@@ -27,7 +27,7 @@ export default function ButtonSocial({
     return (
         <a href={href} target={target}>
             <div className={classes}>
-                <Icon src={iconSrc} className={className} alt={iconAlt} />
+                <Icon src={iconSrc} className={iconClasses} alt={iconAlt} />
                 <span>{text}</span>
             </div>
         </a>
