@@ -14,9 +14,9 @@ export default function MainContent() {
     return (
         <div id="main-content">
         <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/musica" element={<Music />} />
             <Route path="/sobre" element={<About />} />
+            <Route path="/" element={<Home />} />
         </Routes>
         </div>
     );

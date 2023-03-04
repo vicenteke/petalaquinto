@@ -1,17 +1,46 @@
 import React from "react"
-import { Col, Container, Row } from "react-bootstrap";
-import { Link, useMatch } from 'react-router-dom';
+import { Container } from "react-bootstrap";
+
 
 export default function Home() {
-
     return (<>
         <iframe className="full-width" src="https://www.youtube-nocookie.com/embed/-46hH_94khM?rel=0&autoplay=1" title="Clipe Vielas - Pétala Quinto" frameBorder="0" allow="modestbranding; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowFullScreen></iframe>
         <Container fluid className="content-body">
             <h2>Vielas</h2>
-            <p>Vielas é uma música que fala sobre coisas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac risus molestie, laoreet orci in, placerat ligula. Maecenas sollicitudin lobortis rhoncus. Duis eget risus augue. Vivamus dignissim, mauris ut facilisis faucibus, diam felis lacinia mauris, in convallis urna odio eget ex.</p>
-            <p>Nam iaculis nibh ipsum, at mattis nulla imperdiet eget. Integer felis odio, lobortis sit amet velit in, sagittis sagittis libero. Duis accumsan mi nec consequat venenatis.</p>
-            <p>Maecenas non neque id ex pellentesque molestie at id nibh. Vivamus posuere lorem ligula, eget imperdiet dolor elementum sit amet. Nunc placerat pulvinar facilisis.</p>
-            <p>Maecenas non neque id ex pellentesque molestie at id nibh. Vivamus posuere lorem ligula, eget imperdiet dolor elementum sit amet. Nunc placerat pulvinar facilisis. Suspendisse pharetra, orci vitae mattis eleifend, arcu nibh porta velit, et feugiat nisi ligula ultricies est. Phasellus commodo ut nibh et dapibus.</p>
+            <p>
+                Vielas é uma música que fala sobre a insatisfação com a rotina, da mesmice, de ser só mais um. Esse sentimento que parece recorrente nos jovens anos 20 se reflete não apenas na letra da canção, mas também no arranjo e composição como um todo. Logo acima você confere o clipe dessa canção.
+            </p>
+            <br/>
+            <p style={{fontSize: '1.5em'}}>
+                ♪
+            </p>
+            <p>
+                Nas vezes em que eu esqueço<br/>
+                Que é coisa minha achar ser tarde<br/>
+                Se não me afoga um recomeço <br/>
+                O que me sobra é a verdade<br/>
+            </p>
+            <p>
+                E o que pra mim serão novelas<br/>
+                Se passam por curtas metragens<br/>
+                Quero correr todas vielas<br/>
+                Com gosto de longas viagens<br/>
+            </p>
+            <p>
+                (Refrão)
+            </p>
+            <p>
+                Por mais que eu tenha medo<br/>
+                Como sei que tens também<br/>
+                Não quero dar ao desespero<br/>
+                O gosto de me ter refém<br/>
+            </p>
+            <p>
+                Noites de amor eu conto a dedo<br/>
+                De solidão eu já não sei<br/>
+                Mas a razão não mais desejo<br/>
+                Se a emoção me faz tão bem<br/>
+            </p>
         </Container>
         </>
     );
